@@ -1,7 +1,7 @@
-# IGNORE
+# Ignore Folders:
 Learning
-Data
-Old Versions
+"Large Data"
+"Old Versions"
 Incomplete
 */.ipynb_checkpoints/*
 .ipynb_checkpoints
