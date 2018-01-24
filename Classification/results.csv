@@ -1,0 +1,109 @@
+Model,Para,Test_Score,CV Mean,CV STDEV
+5-VM-Ensemble Soft Voting,"EnsembleVoteClassifier(clfs=[RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=9, max_features=0.55000000000000004,
+            max_leaf_nodes=9, min_impurity_decrease=0.0,
+            min_impurity_split=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_f...r=None,
+          learning_rate=0.10000000000000001, n_estimators=730,
+          random_state=None)],
+            refit=True, verbose=0, voting='soft', weights=None)",0.832089552238806,0.8377235772357723,0.03074479181169044
+7-VM-Ensemble Soft Voting,"EnsembleVoteClassifier(clfs=[RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=9, max_features=0.55000000000000004,
+            max_leaf_nodes=9, min_impurity_decrease=0.0,
+            min_impurity_split=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_f..., reg_lambda=1, scale_pos_weight=1,
+       scoring='accuracy', seed=None, silent=True, subsample=1)],
+            refit=True, verbose=0, voting='soft', weights=None)",0.8246268656716418,0.8345235772357723,0.02991376134579419
+10-VM-Ensemble Soft Voting,"EnsembleVoteClassifier(clfs=[RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=9, max_features=0.55000000000000004,
+            max_leaf_nodes=9, min_impurity_decrease=0.0,
+            min_impurity_split=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_f...params=None, n_jobs=1, n_neighbors=20, p=2,
+           weights='distance'), GaussianNB(priors=None)],
+            refit=True, verbose=0, voting='soft', weights=None)",0.835820895522388,0.8329235772357724,0.02755990865383269
+3-VM-Ensemble Soft Voting,"EnsembleVoteClassifier(clfs=[RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=9, max_features=0.55000000000000004,
+            max_leaf_nodes=9, min_impurity_decrease=0.0,
+            min_impurity_split=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_f...=0, reg_lambda=1, scale_pos_weight=1,
+       seed=None, silent=True, subsample=0.80308878420453766)],
+            refit=True, verbose=0, voting='soft', weights=None)",0.835820895522388,0.8312975609756098,0.02937699488840559
+5-VM-Ensemble Hard Voting,"EnsembleVoteClassifier(clfs=[RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=9, max_features=0.55000000000000004,
+            max_leaf_nodes=9, min_impurity_decrease=0.0,
+            min_impurity_split=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_f...r=None,
+          learning_rate=0.10000000000000001, n_estimators=730,
+          random_state=None)],
+            refit=True, verbose=0, voting='hard', weights=None)",0.8283582089552238,0.8297235772357723,0.024527932226678727
+Random_Forest,"{'max_depth': 9, 'max_leaf_nodes': 9, 'n_estimators': 802, 'max_features': 0.55000000000000004}",0.8395522388059702,0.8296975609756098,0.03200937399880478
+3-VM-Ensemble Hard Voting,"EnsembleVoteClassifier(clfs=[RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=9, max_features=0.55000000000000004,
+            max_leaf_nodes=9, min_impurity_decrease=0.0,
+            min_impurity_split=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_f...=0, reg_lambda=1, scale_pos_weight=1,
+       seed=None, silent=True, subsample=0.80308878420453766)],
+            refit=True, verbose=0, voting='hard', weights=None)",0.8395522388059702,0.8296975609756098,0.03200937399880478
+10-VM-Ensemble Hard Voting,"EnsembleVoteClassifier(clfs=[RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=9, max_features=0.55000000000000004,
+            max_leaf_nodes=9, min_impurity_decrease=0.0,
+            min_impurity_split=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_f...wski',
+           metric_params=None, n_jobs=1, n_neighbors=20, p=2,
+           weights='distance')],
+            refit=True, verbose=0, voting='hard', weights=None)",0.832089552238806,0.8281235772357723,0.024588104979258087
+2-VM-Ensemble Soft Voting,"EnsembleVoteClassifier(clfs=[RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=9, max_features=0.55000000000000004,
+            max_leaf_nodes=9, min_impurity_decrease=0.0,
+            min_impurity_split=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_f...', max_iter=-1, probability=True, random_state=None,
+  shrinking=True, tol=0.001, verbose=False))])],
+            refit=True, verbose=0, voting='soft', weights=None)",0.835820895522388,0.8280975609756098,0.029991202358646954
+7-VM-Ensemble Hard Voting,"EnsembleVoteClassifier(clfs=[RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=9, max_features=0.55000000000000004,
+            max_leaf_nodes=9, min_impurity_decrease=0.0,
+            min_impurity_split=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_f..., reg_lambda=1, scale_pos_weight=1,
+       scoring='accuracy', seed=None, silent=True, subsample=1)],
+            refit=True, verbose=0, voting='hard', weights=None)",0.8246268656716418,0.8265235772357723,0.026548264606664748
+2-VM-Ensemble Hard Voting,"EnsembleVoteClassifier(clfs=[RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=9, max_features=0.55000000000000004,
+            max_leaf_nodes=9, min_impurity_decrease=0.0,
+            min_impurity_split=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_f...', max_iter=-1, probability=True, random_state=None,
+  shrinking=True, tol=0.001, verbose=False))])],
+            refit=True, verbose=0, voting='hard', weights=None)",0.8395522388059702,0.8248975609756097,0.028959568525121587
+SVCrbf,"{'svc__gamma': 0.00035938136638046257, 'svc__C': 5535}",0.835820895522388,0.8248715447154471,0.03290935053497736
+Sci_kit XGB,"{'colsample_bytree': 0.87131674191566333, 'learning_rate': 0.01, 'gamma': 2.8809577788923795, 'reg_alpha': 0, 'max_depth': 4, 'subsample': 0.80308878420453766, 'n_estimators': 634}",0.8134328358208955,0.8233495934959348,0.0308951715754621
+stacked,"LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)",0.8022388059701493,0.8212290502793296,0.02848614253403792
+XGBsklearn,"XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+       colsample_bytree=1, gamma=0, learning_rate=0.01, max_delta_step=0,
+       max_depth=3, min_child_weight=1, missing=None, n_estimators=1000,
+       n_jobs=1, nthread=None, objective='binary:logistic',
+       random_state=25, reg_alpha=0, reg_lambda=1, scale_pos_weight=1,
+       scoring='accuracy', seed=None, silent=True, subsample=1)",0.8768656716417911,0.8208,0.040979995119570234
+AdaBoost_Ensemble,"{'learning_rate': 0.10000000000000001, 'n_estimators': 730}",0.7947761194029851,0.8185495934959348,0.013986698117790962
+PCA_SVC,"{'svc__gamma': 0.0027825594022071257, 'svc__C': 7683, 'pca__n_components': 7}",0.835820895522388,0.8137235772357723,0.021853464962363733
+XGBstandard,"XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+       colsample_bytree=1, gamma=0, learning_rate=0.01, max_delta_step=0,
+       max_depth=3, min_child_weight=1, missing=None, n_estimators=1000,
+       n_jobs=1, nthread=None, objective='binary:logistic',
+       random_state=25, reg_alpha=0, reg_lambda=1, scale_pos_weight=1,
+       scoring='accuracy', seed=None, silent=True, subsample=1)",0.8768656716417911,0.8134328358208955,0.0
+Logistic_Regression,"LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)",0.8022388059701493,0.8096,0.031759093186046715
+LinearSV,"LinearSVC(C=1.0, class_weight=None, dual=True, fit_intercept=True,
+     intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+     multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
+     verbose=0)",0.8283582089552238,0.8048,0.0270584552404604
+KNN,"{'n_neighbors': 20, 'weights': 'distance'}",0.7910447761194029,0.8040715447154472,0.02644695847912601
+Gaussian,GaussianNB(priors=None),0.7947761194029851,0.7968,0.04281308211283088
+Gradient_Boosting,"{'max_depth': 2.5, 'loss': 'deviance', 'learning_rate': 0.060000000000000005, 'n_estimators': 859}",0.8208955223880597,0.7831934959349593,0.034730650085915624
+Bagger_ensemble,{'n_estimators': 736},0.8134328358208955,0.7799154471544715,0.0550481472479677
+StochasticGradientDescent,{'loss': 'hinge'},0.667910447761194,0.7336715447154472,0.12027865608133297
+FFNeural_Net,"{'alpha': 100, 'early_stopping': True, 'learning_rate': 'adaptive', 'activation': 'identity', 'max_iter': 35938, 'hidden_layer_sizes': 1000}",0.7201492537313433,0.6646634146341464,0.04443910042562635
